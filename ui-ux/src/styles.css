@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .attendance-system {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .student-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .student {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .student button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #146ecf;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .attendance-summary {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .attendance-summary p {
+    margin: 5px;
+  }
+  
+  
